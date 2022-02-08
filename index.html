@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pat Kelly is a Front-End Web Developer skilled in HTML, CSS, and JavaScript. Capable of creating fully responsive websites optimized for SEO and Web Accessibility.">
+    <meta name="robots" content="index, follow">
     <!-- Bootstrap CS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome Icon Library Start -->
+    <script src="https://kit.fontawesome.com/7fe56f3963.js" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/styles.css">
     <!-- Global site tag (gtag.js) - Google Analytics Start -->
@@ -22,7 +25,7 @@
 </head>
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Pat Kelly</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +43,6 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
@@ -59,8 +61,8 @@
                     <img src="img/home/pat-kelly-8-bit-face.png" alt="Pat Kelly 8-bit face">
                     <h1 class="text-white">
                         <span>Pat Kelly </span>
-                        <div>
-                            C: \Front-End Developer>
+                        <div class="green-highlight-text">
+                            C: \Front-End Developer><div class="blinking-animation"></div>
                         </div>
                     </h1>
                 </div>
@@ -116,6 +118,36 @@
     <!-- About Section End -->
 
 
+    <!-- Contact Section Start -->
+    <section id="contact-section" class="container-fluid bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="green-highlight-text">C: \Contact<div class="blinking-animation"></div></h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Column 1 Start -->
+                <div class="col-md-6 text-white">
+                    <h3 class="green-highlight-text">PatK80@gmail.com</h3>
+                    <p>Please email me if you would like to reach out — thank you!</p>
+                    <form action="https://formspree.io/f/mnqlypev" method="POST">
+                        <label>Your Email<input class="form-email-input w-100" type="email" name="_replyto" placeholder="example@email.com"></label>
+                        <label>Your Message<textarea class="form-textarea w-100" name="message" placeholder="Your message"></textarea></label>
+                        <!-- your other form fields go here -->
+                        <button type="submit" class="button"><i class="fas fa-envelope"></i>Send Message</button>
+                    </form>
+                </div>
+                <!-- Column 1 End -->
+                <!-- Column 2 Start -->
+                <div class="col-md-6 text-white">
+                    <img src="img/home/magnet-capturing-emails-undraw.svg" class="w-100" loading="lazy" alt="Magnet attracting a bunch of emails">
+                </div>
+                <!-- Column 2 End -->
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
     
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
