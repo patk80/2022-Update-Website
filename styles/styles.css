@@ -43,6 +43,10 @@ label,
   display: block;
 }
 
+.form-textarea {
+  height: 250px;
+}
+
 #hero-section-8-bit-image {
   width: 100px;
 }
