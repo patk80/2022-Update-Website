@@ -1,3 +1,4 @@
+/******************* Universal Styles START *******************/
 .blinking-animation {
     animation: blink ease 3s infinite;
     height: 5px;
@@ -17,7 +18,19 @@
 .green-highlight-text {
     color: #07bb24;
 }
+/******************* Universal Styles END *******************/
 
+
+
+/******************* Hero Section START *******************/
+#hero-section-8-bit-image {
+    width: 100px;
+}
+/******************* Hero Section END *******************/
+
+
+
+/******************* Contact Section START *******************/
 label,
 .form-email-input,
 .form-textarea {
@@ -27,7 +40,4 @@ label,
 .form-textarea {
     height: 250px;
 }
-
-#hero-section-8-bit-image {
-    width: 100px;
-}
+/******************* Contact Section END *******************/
