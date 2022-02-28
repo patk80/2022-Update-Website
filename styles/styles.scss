@@ -18,13 +18,24 @@
 .green-highlight-text {
     color: #07bb24;
 }
+
+#hero-section,
+#about-section,
+#projects-section,
+#contact-section {
+    padding-top: 60px;
+}
 /******************* Universal Styles END *******************/
 
 
 
 /******************* Hero Section START *******************/
+#hero-section {
+    height: 100vh;
+}
+
 #hero-section-8-bit-image {
-    width: 100px;
+    width: 200px;
 }
 /******************* Hero Section END *******************/
 
